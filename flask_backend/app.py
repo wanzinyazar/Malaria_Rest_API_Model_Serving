@@ -20,15 +20,15 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 model = load_model('./model/train_model.h5')
 
 creds = {
-  "apikey": "i2xzr3QtHkfny2iekPlN5T0-qONn4qkHYSUaUPU0tG0F",
-  "iam_apikey_description": "Auto-generated for key c31f0652-8c5f-4380-88b5-3be09b78165e",
-  "iam_apikey_name": "Service credentials-1",
-  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
-  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/c1c3c0533ace4b1eba3de3385814b16a::serviceid:ServiceId-794c42cb-ed67-4a2c-8027-7c6b31aa974f",
-  "instance_id": "455fe1c1-4c6d-4ead-aa98-fee55eb73129",
-  "password": "5db5cd15-199a-43af-99dc-357e3bae69d1",
-  "url": "https://us-south.ml.cloud.ibm.com",
-  "username": "c31f0652-8c5f-4380-88b5-3be09b78165e"
+  "apikey": ,
+  "iam_apikey_description": 
+  "iam_apikey_name": 
+  "iam_role_crn": 
+  "iam_serviceid_crn":
+  "instance_id": 
+  "password": 
+  "url": 
+  "username": 
 }
 
 client = WatsonMachineLearningAPIClient(creds)
